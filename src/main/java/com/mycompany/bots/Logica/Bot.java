@@ -1,15 +1,13 @@
 package com.mycompany.bots.Logica;
 
-import java.util.ArrayList;
-
 /**
  * Clase principal encargada de crear los bots
  */
 public class Bot {
-    private ArrayList<String> respuestas;
-    private String nombreBot, nombreUsuario;
+    private String[] respuestas;
+    private String nombreBot, nombreUsuario = "";
 
-    public Bot(ArrayList<String> respuestas, String nombreBot) {
+    public Bot(String[] respuestas, String nombreBot) {
         this.respuestas = respuestas;
         this.nombreBot = nombreBot;
     }
@@ -20,7 +18,7 @@ public class Bot {
      * @return Presentacion del bot
      */
     public String encender() {
-        return "Hola yo soy " + nombreBot + " un gusto saludarte, sobre que te gustaria hablar?";
+        return "Hola yo soy " + nombreBot + " un gusto saludarte\n como te llamas?";
     }
 
     /**
@@ -48,7 +46,7 @@ public class Bot {
      * @return una respuesta aleatoria
      */
     private String charlaRan() {
-        return respuestas.get((int) (Math.random() * respuestas.size()));
+        return respuestas[(int) (Math.random() * respuestas.length)];
     }
 
     /**
@@ -83,8 +81,14 @@ public class Bot {
      * establece eñ nombre del usuario
      *
      * @param nombreUsuario nombre con el que el bot se referira al usuario
+     * @return Saludo y conformacicon de nombre
      */
-    public void setNombreUsuario(String nombreUsuario) {
+    public String nombrarUsuario(String nombreUsuario) {
         this.nombreUsuario = nombreUsuario;
+        return "mucho gusto " + nombreUsuario + " comencemos a hablar";
+    }
+
+    public String getNombreUsuario() {
+        return this.nombreUsuario;
     }
 }

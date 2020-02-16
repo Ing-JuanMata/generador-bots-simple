@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c673737e-ca6c-4a0a-9b62-94b17aa0f405" name="Default Changelist" comment="" />
+    <list default="true" id="c673737e-ca6c-4a0a-9b62-94b17aa0f405" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/bots/Logica/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/bots/Logica/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/bots/Vista/Principal.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/bots/Vista/Principal.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/bots/Vista/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/bots/Vista/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/bots/Vista/Principal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/bots/Vista/Principal$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/bots/Vista/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/bots/Vista/Principal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XrVJ8vcOb3ryknfl27QHnqeYod" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,6 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -63,6 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581804125546</updated>
       <workItem from="1581804131317" duration="3409000" />
+      <workItem from="1581807704911" duration="4210000" />
     </task>
     <servers />
   </component>
@@ -70,33 +85,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="478" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1581804935752">
+    <state x="478" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1581812621017">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="478" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1581804935752" />
+    <state x="478" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1581812621017" />
     <state x="4" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581806481757">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="4" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768@0.0.1366.768" timestamp="1581806481757" />
-    <state width="1325" height="171" key="GridCell.Tab.0.bottom" timestamp="1581807545053">
+    <state width="1325" height="171" key="GridCell.Tab.0.bottom" timestamp="1581813742777">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1325" height="171" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581807545053" />
-    <state width="1325" height="171" key="GridCell.Tab.0.center" timestamp="1581807545053">
+    <state width="1325" height="171" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581813742777" />
+    <state width="1325" height="171" key="GridCell.Tab.0.center" timestamp="1581813742777">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1325" height="171" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581807545053" />
-    <state width="1325" height="171" key="GridCell.Tab.0.left" timestamp="1581807545053">
+    <state width="1325" height="171" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581813742777" />
+    <state width="1325" height="171" key="GridCell.Tab.0.left" timestamp="1581813742777">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1325" height="171" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581807545053" />
-    <state width="1325" height="171" key="GridCell.Tab.0.right" timestamp="1581807545053">
+    <state width="1325" height="171" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581813742777" />
+    <state width="1325" height="171" key="GridCell.Tab.0.right" timestamp="1581813742777">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1325" height="171" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581807545053" />
+    <state width="1325" height="171" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581813742777" />
     <state x="121" y="55" key="SettingsEditor" timestamp="1581807288109">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="121" y="55" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581807288109" />
+    <state x="318" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1581807703962">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="318" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1581807703962" />
   </component>
 </project>
